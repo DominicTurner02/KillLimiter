@@ -76,10 +76,10 @@ namespace KillLimiter
                                 UnturnedChat.Say(UnturnedPlayer.FromSteamPlayer(sPlayer), "You can now do damage again!", Color.yellow);
                             }
                         }
-                    }
-                    Frames = 0;
-                    return;
+                    }  
                 }
+                Frames = 0;
+                return;
             }
         }
 
